@@ -1,0 +1,156 @@
+#home{
+    color: white;
+}
+body{
+    text-align: center;
+}
+.top
+{
+    background-image: url("bg1.jpg");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+   
+}
+h1{
+    font-family:"merriweather";
+    font-weight: bolder;
+    font-size: 4rem;
+}
+a{
+    color: white;
+}
+.top-button:hover
+{
+    background-color: #C2FFF9;
+}
+.top-button{
+    margin-top: 3%;
+    border-radius: 5%;
+    background-color: #FF5403;
+    border: solid 2px white;
+    font-size: 20px;
+    font-weight: 2rem;
+}
+.top-para{
+    font-family: sans-serif;
+    padding: 0 25%;
+    font-size: 1.5rem;
+}
+.navbar{
+    font-family:"merriweather";
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: fixed;
+    width: 100%;
+    z-index:1;
+}
+#service{
+  
+    padding: 5% 0%;
+}
+.mid-image{
+    height: 25%;
+    width: 45%;
+}
+
+
+.mid-class{
+    background-color: #EDFFEC;
+    height: 95%;
+    width: 90%;
+    padding:5% 0%;
+    border: solid 2px brown;
+    border-radius: 5%;
+    margin-left: 25px;
+}
+.chicken{
+    border-radius: 100%;
+    height: 20%;
+    width: 40%;
+}
+.mid-para{
+    padding: 3% 12%;
+    font-weight: bold;
+}
+#service h1
+{
+     color:orange; 
+    padding-bottom: 3%;
+}
+#service h3{
+    font-weight: bold;
+    padding: 2% 0%;
+    color: #548CFF;
+}
+#clients
+{
+    background-image: url("contact.jpg");
+    height: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 0%;
+    color:darkblue;
+}
+.client-image{
+    height: 32%;
+    width: 7%;
+    margin: 3% 1%;
+}
+#footer{
+    padding: 3%;
+    background-color: #A7C4BC;
+    font-weight: bold;
+}
+.foot-image{
+    padding: 10px 10px;
+}
+
+.fa-twitter-square:hover{
+    color: #32C1CD;
+}
+.fa-facebook:hover{
+    color: #126E82;
+}
+.fa-instagram:hover{
+    color: #FF008E;
+}
+.fa-envelope:hover{
+    color: blue;
+}
+@media(max-width:1240px)
+{
+    .top h1{
+       font-size: 2.5rem;
+    }
+    .top-para{
+        font-size: 1.2rem;
+    }
+    #service h1{
+        font-size: 2.5rem;
+    }
+    .mid-para{
+        padding: 1% 3%;
+       font-weight: normal;
+       font-size:13px;
+    }
+    .col-lg-4{
+        height: 95%;
+        width: 80%;
+        padding-left: 15%;
+    }
+    .mid-class{
+        margin-bottom:17px ;
+        height: 80%;
+    }
+    #clients h1{
+        font-size: 2.5rem;
+    }
+    #footer p{
+        font-size: small;
+    }
+}
